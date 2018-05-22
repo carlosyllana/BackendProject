@@ -6,7 +6,7 @@ var port = 3800; //Puerto en el que trabajaremos
 
 //Conexion base de datos
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/curso_mean_social')
+mongoose.connect('mongodb://localhost:27017/BDRedSocial')
           .then(() => {
               console.log("Conexion a la base de datos exitosa");
 

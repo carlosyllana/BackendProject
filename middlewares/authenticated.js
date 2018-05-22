@@ -2,7 +2,7 @@
 
 var jwt = require('jwt-simple');
 var moment = require('moment');
-var secret= 'clave_Secreta_curso_desarrollar_red_social_angular';
+var secret= 'clave_para_cifrar_nuestra_conexion';
 
 
 //HHasta que no se ejecute el next, no sigue la ejecucion del programa
